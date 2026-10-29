@@ -1,6 +1,6 @@
 {
   "name": "opencode-session-clock",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Session time accounting for OpenCode",
   "type": "module",
   "exports": {

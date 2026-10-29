@@ -54,7 +54,7 @@ export default Plugin.define({
       for (let page = 0; page < 100; page++) {
         const response = (await context.client.message.list(
           cursor
-            ? { sessionID, limit: 200, cursor }
+            ? { sessionID, limit: 200, cursor, order: "asc" }
             : { sessionID, limit: 200, order: "asc" },
         )) as {
           data?: SessionMessage[]

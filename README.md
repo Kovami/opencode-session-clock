@@ -21,7 +21,7 @@ Add the plugin to the `plugins` array in `~/.config/opencode/cli.json`:
 
 ```json
 {
-  "plugins": ["opencode-session-clock@0.1.0"]
+  "plugins": ["opencode-session-clock@0.1.1"]
 }
 ```
 
